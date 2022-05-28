@@ -13,7 +13,6 @@ body {
 header {
   width: 100%;
   height: auto;
-  position: inherit;
 }
 
 label {
@@ -84,6 +83,7 @@ label {
   top: 10%;
   left: 25%;
   right: 20%;
+  bottom: 5%;
   text-align: center;
   margin: 5% auto;
 }
