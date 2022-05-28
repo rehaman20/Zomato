@@ -4,7 +4,8 @@ body {
   font-weight: 400;
   font-size: 1rem;
   overflow-x: hidden;
-  color: #607289;
+  color: #40514e;
+  line-height: 2;
 }
 
 /* Header Css */
@@ -14,7 +15,7 @@ header {
 }
 
 label {
-  color: white;
+  color: black;
 }
 
 .btn {
@@ -70,14 +71,14 @@ label {
 .mask-custom {
   /* background: rgba(24, 24, 16, 0.2); */
   /* background-color: #1d2931; */
-  background-color: #082032;
+  background-color: #cdf2ca;
   border-radius: 2em;
   backdrop-filter: blur(50px);
   border: 2px solid rgba(255, 255, 255, 0.05);
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
   max-width: 600px;
-  max-height: auto;
+  /* max-height: auto; */
   margin: 10px auto;
   position: absolute;
   top: 35%;
