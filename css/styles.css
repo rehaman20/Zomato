@@ -97,6 +97,14 @@ label {
   height: auto;
 }
 
+.form-label {
+  color: #222;
+  font-size: 20px;
+  line-height: 2;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* .content-container {
   color: #fff;
   position: absolute;
