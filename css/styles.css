@@ -6,12 +6,14 @@ body {
   overflow-x: hidden;
   color: #40514e;
   line-height: 2;
+  position: relative;
 }
 
 /* Header Css */
 header {
   width: 100%;
   height: auto;
+  position: inherit;
 }
 
 label {
@@ -57,34 +59,33 @@ label {
 /* Search-section Css */
 #search {
   width: 100%;
-}
-
-.intro {
   height: 600px;
   position: inherit;
 }
 
 .intro-container {
-  position: inherit;
+  width: auto;
+  margin: auto 0;
 }
 
 .mask-custom {
   /* background: rgba(24, 24, 16, 0.2); */
   /* background-color: #1d2931; */
-  background-color: #cdf2ca;
+  background-color: #82dbd8;
   border-radius: 2em;
   backdrop-filter: blur(50px);
   border: 2px solid rgba(255, 255, 255, 0.05);
   background-clip: padding-box;
   box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
   max-width: 600px;
-  /* max-height: auto; */
-  margin: 10px auto;
-  position: absolute;
-  top: 35%;
-  left: 30%;
-  text-align: center;
+  height: fit-content;
   margin: 0 auto;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+  right: 20%;
+  text-align: center;
+  margin: 5% auto;
 }
 
 /* .image-container {
@@ -108,7 +109,7 @@ label {
   background-color: #f9f3ee;
   width: 100%;
   height: auto;
-  padding: 100px 0;
+  padding: 10% 0;
 }
 
 * {
